@@ -5,12 +5,14 @@ package notas;
 
 /**
  * @author Adan
- *
+ *@version: 26/02/2022
  */
 public class califica {
 
 	/**
-	 * @param num_nota
+	 * Codigo que calculara la calificación pasada por el parametro
+	 * @param num_nota  
+	 * Pasa un numero de la nota del alumno entre 0 y 10
 	 */
 	public static void califica(int num_nota) {
 		String calificacion;
@@ -26,5 +28,6 @@ public class califica {
 		calificacion = "La nota introducida no es correcta";
 		System.out.println(calificacion);
 	}
+
 
 }
